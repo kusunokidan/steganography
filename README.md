@@ -2,18 +2,21 @@
 
 steganography.py
 
+# Features
+入力画像にメッセージを埋め込みます。
+メッセージが埋め込まれた画像からメッセージを取得します。
 
 
-Usage:
+# Usage
 
- steganography.py -a -i <input_image> -o <output_image> -p <password> -m <message_file>
+python steganography.py -a -i <input_image> -o <output_image> -p <password> -m <message_file>
 
- steganography.py -x -o <output_image> -f <output_file> -p <password> -f <output_file>
+python steganography.py -x -o <output_image> -f <output_file> -p <password> -f <output_file>
  
  
  
  
-Options:
+# Options
  
   -a, --add  メッセージを埋め込む
 
