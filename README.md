@@ -32,3 +32,4 @@ python steganography.py -x -o <output_image> -f <output_file> -p <password> -f <
   
   -p, --password  パスワード
  
+ ![alt](outline.png)
